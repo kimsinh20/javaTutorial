@@ -1,0 +1,49 @@
+@import url("style.css");
+.login_view {
+    background: #fefefe;
+    width: 40vw;
+    height: auto;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #88f;
+    border-radius: 8px;
+}
+.title {
+    background-color: #666;
+}
+.lc {
+    text-align: right;
+    font-weight: bold;
+    width: 35%;
+    padding-right: 30px;
+}
+.txtInput {
+    padding: 10px 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #88f;
+    font-size: 0.9 rem;
+    color: #555;
+    width: 80%;
+}
+.chkInput {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #88f;
+}
+a.links {
+    text-decoration: none;
+}
+a.links:hover {
+    color: #888;
+}
+.btn {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #88f;
+}
+.space {
+    padding-right: 20px;
+}
