@@ -30,26 +30,26 @@
       <div class="col-lg-12 py-3">
         <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-              type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-              infomation
+            <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+              role="tab" aria-controls="nav-home" aria-selected="true">
+              Infomation
             </button>
             <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
               type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-              details
+              Details
             </button>
             <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
               type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
-              setting
+              Setting
             </button>
-            <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled"
-              type="button" role="tab" aria-controls="nav-" aria-selected="false">
-              change password
+            <button class="nav-link active" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled"
+              type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">
+              Change password
             </button>
           </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+          <div class="tab-pane fade " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
             <div class="provider-form bg-light py-2 border-start border-end border-bottom">
               <form action="" class="px-3 provider-form">
                 <div class="row py -2">
@@ -71,20 +71,20 @@
                 <div class="row py-2 align-items-center">
                   <div class="col-sm-2">email</div>
                   <div class="col-sm-4">
-                   <input type="email" class="form-control" name="" id="">
+                    <input type="email" class="form-control" name="" id="">
                   </div>
                 </div>
                 <div class="row py-2 align-items-center">
                   <div class="col-sm-2">permission</div>
                   <div class="col-sm-4">
-                   <select>
-                    <option value="0">--select--</option>
-                    <option value="1">member</option>
-                    <option value="2">authors</option>
-                    <option value="3">managers</option>
-                    <option value="4">admintrators</option>
-                    <option value="5">supper admin</option>
-                   </select>
+                    <select>
+                      <option value="0">--select--</option>
+                      <option value="1">member</option>
+                      <option value="2">authors</option>
+                      <option value="3">managers</option>
+                      <option value="4">admintrators</option>
+                      <option value="5">supper admin</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row py-2">
@@ -138,7 +138,7 @@
                   </div>
                   <div class="col-sm-2">gender</div>
                   <div class="col-sm-3">
-                    <select  class="form-control">
+                    <select class="form-control">
                       <option value="0">male</option>
                       <option value="1">female</option>
                       <option value="2">male -> female</option>
@@ -166,7 +166,7 @@
                   </div>
 
                 </div>
-                
+
                 <div class="row py-2 align-items-center">
                   <div class="col-sm-2">notes</div>
                   <div class="col-sm-9">
@@ -201,17 +201,198 @@
           </div>
           <!-- end detaile -->
           <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
-            ...
-          </div>
-          <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
-            ...
+            <div class="setting-form bg-light py-2 border-start border-end border-bottom ">
+              <form action="" class="px-3 provider-form">
+                <div class="row py-2 align-items-center">
+                  <div class="col-sm-2">Permission</div>
+                  <div class="col-sm-4">
+                    <select>
+                      <option value="0">--Select--</option>
+                      <option value="1">Member</option>
+                      <option value="2">Authors</option>
+                      <option value="3">Managers</option>
+                      <option value="4">Admintrators</option>
+                      <option value="5">Supper admin</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row py-2 px-3 align-items-center">
+                  <div class="col-sm-2 text-end">Roles</div>
+                  <div class="col-sm-9">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk1">
+                          <label class="form-check-label" for="chk1">
+                            User managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk2">
+                          <label class="form-check-label" for="chk2">
+                            User managerment
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk1">
+                          <label class="form-check-label" for="chk1">
+                            User managerment
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row py-1">
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk4">
+                          <label class="form-check-label" for="chk1">
+                            Article managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk5">
+                          <label class="form-check-label" for="chk2">
+                            Product system managerment
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk6">
+                          <label class="form-check-label" for="chk1">
+                            Product group managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk6">
+                          <label class="form-check-label" for="chk1">
+                            Product category managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk6">
+                          <label class="form-check-label" for="chk1">
+                            Product managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk6">
+                          <label class="form-check-label" for="chk1">
+                            Customer managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk6">
+                          <label class="form-check-label" for="chk1">
+                            Order managerment
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="chk7">
+                          <label class="form-check-label" for="chk2">
+                            Log managerment
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row py-2">
+                    <div class="col-sm-12 text-center">
+                      <a href="#" class="text-decoration-none"><i class="fa-solid fa-circle-question"></i>&nbsp;help</a>
+                    </div>
+                  </div>
+                  <div class="row py-3">
+                    <div class="col-sm-12 text-center">
+                      <button type="button" class="btn btn-primary fw-semibold" disabled>
+                        <i class="fa-solid fa-pen-to-square"></i>&nbsp;Save changes
+                      </button>
+                      <button type="button" class="btn btn-secondary fw-semibold">
+                        <i class="fa-solid fa-rotate-right"></i>&nbsp;Reset
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row py-3">
+                    <div class="col-sm-11 text-end">
+                      <a href="#" class="text-decoration-none"><i class="fa-solid fa-language"></i>&nbsp;Tiếng việt</a>
+                    </div>
+                  </div>
+              </form>
+            </div>
           </div>
         </div>
+        <!-- end  -->
+        <div class="tab-pane fade show active" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab"
+          tabindex="0">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+            tabindex="0">
+            <div class="provider-form bg-light py-2 border-start border-end border-bottom">
+              <form action="" class="px-3 provider-form">
+                <div class="row py -2">
+                  <div class="col-sm-2">Old password</div>
+                  <div class="col-sm-3">
+                    <input type="password" class="form-control" />
+                  </div>
+                </div>
+                <div class="row py-2">
+                  <div class="col-sm-2">New password</div>
+                  <div class="col-sm-3">
+                    <input type="password" class="form-control" />
+                  </div>
+                </div>
+                <div class="row py-2">
+                  <div class="col-sm-2">Confirm password</div>
+                  <div class="col-sm-3">
+                    <input type="password" class="form-control" />
+                  </div>
+                </div>
+                <hr class=" border border-primary border-1 opacity-75">
+                <div class="row py-2">
+                  <div class="col-sm-12 text-center">
+                    <a href="#" class="text-decoration-none"><i class="fa-solid fa-circle-question"></i>&nbsp;help</a>
+                  </div>
+                </div>
+                <div class="row py-3">
+                  <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-primary fw-semibold" disabled>
+                      <i class="fa-solid fa-user-gear"></i>&nbsp;Save
+                    </button>
+                    <button type="button" class="btn btn-secondary fw-semibold">
+                      <i class="fa-solid fa-xmark"></i>&nbsp;Reset
+                    </button>
+                  </div>
+                </div>
+                <div class="row py-3">
+                  <div class="col-sm-11 text-end">
+                    <a href="#" class="text-decoration-none"><i class="fa-solid fa-language"></i>&nbsp;Tiếng việt</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
       </div>
     </div>
-  </div>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
